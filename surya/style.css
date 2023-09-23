@@ -1,0 +1,67 @@
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    font-size: 24px;     
+    font-style: normal; 
+    font-weight: bold; 
+    color: blue;
+    text-align: center; 
+    text-decoration: underline
+}
+.surya{
+    border:3px solid rgb(10, 9, 9);
+    border-end-end-radius: 5px;
+    background-color:rgb(237, 232, 227);
+    border-radius: 10px;
+}
+img{
+    width: 450px;
+    height: 200px;
+    border:2px solid black;
+    box-shadow: 2px 2px 5x gray;
+    margin:10px;
+    padding:5px;
+ }
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin-top: auto;
+    margin-left: 100px;
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom right, #ef0a5a, #1be1d1, #c01651);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.form-row {
+    margin-bottom: 20px;
+}
+.form-row label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-row input,
+.form-row select {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   font-size: 14px;
+}
+input[type="submit"] {
+   padding: 10px 20px;
+   background: linear-gradient(to bottom right, #736f86, #3300ff);
+   color: #fff;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   font-size: 16px;
+}
